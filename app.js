@@ -10,12 +10,13 @@ geocode('lucknow',(error,data) => {
             return console.log(error)
       }
 
-      forecast(data.latitude, data.longitude, (error, data) => {  //Callback Chaining
+      forecast(data.latitude, data.longitude, (error, forecastData) => {  //Callback Chaining
 
             if(error){
                   return console.log(error)
             }
-            console.log('Error', error)
-            console.log('Data', data)
+
+             console.log(data.location)
+             console.log(forecastData)
           })
 })
