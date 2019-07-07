@@ -8,7 +8,7 @@ body{
 .box{
     position: relative;
     margin-left: 37%;
-    margin-top: -25%;
+    margin-top: -24.7%;
     right: 8%;
     padding-top: 10px;
     padding-bottom: 2%;
@@ -46,6 +46,7 @@ body{
 }
 #message-1{
     color: white;
+    margin-top: 3%;
 }
 #message-2{
     color: white;
