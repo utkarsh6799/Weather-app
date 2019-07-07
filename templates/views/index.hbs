@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    
+
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1,, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     </head>
 
     <body>
-        <div>
-            {{>header}}
-            <p>{{action}}</p>
+          <img class="image" {{>svg}}>
+        <div class="box">
+         
+           {{!-- <h1>{{>header}}</h1>  --}}
+
+            {{!-- <p>{{action}}</p> --}}
           
           <form>
-              <input>
-              <button>Search</button>
+              <input class="input" placeholder="Location">
+              <button><i class="fas fa-search"></i></button>
           </form>
 
           <P id="message-1"></P>
           <p id="message-2"></p>
 
-            </div>
+            
 
-            {{>footer}}
+            {{!-- {{>footer}} --}}
+            </div>
 
             <script src="/js/client.js"></script>
     </body>
